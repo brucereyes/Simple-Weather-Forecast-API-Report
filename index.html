@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device=width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content ="is=edge">
+    <title>API</title>
+    
+</head>
+<body>
+    
+<!-- Include the jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- HTML -->
+    <h1>Weather Report</h1>
+    <form id="cityform">
+    <label for="CurrentWeather">This for current weather for a specific city</label>
+      <label for="thecity">City:</label><br>
+      <input type="text" name="thecity" id="thecity"><br><br>
+      <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+    <div id="error-message"></div>
+    
+    <br><br>
+
+    <form id="forecast">
+        <label for="cityForecast">5-day City Forecast:</label>
+        <input type="text" name="cityForecast" id="cityForecast">
+        <br><br>
+      <button type="submit">Confirm</button>
+
+    </form>
+  
+    <!-- Create an element where the data will be displayed -->
+
+
+    <div id="forecastResult1"></div>
+    <div id="forecastResult2"></div>
+    <div id="forecastResult3"></div>
+    <script src = "script.js"></script>
+  
+   
+  </body>
+  
