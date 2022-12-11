@@ -1,9 +1,9 @@
 
-  var cityform = document.getElementById("cityform");
-  var forecast = document.getElementById("forecast");
+  var cityform = document.getElementById("cityform"); //Current weather forecast form
+  var forecast = document.getElementById("forecast"); //3-hour increment form
 
+//Start Current Weather Forecast 
 
-// Check if the cityform variable is not null
 if (cityform !== null) {
 
         // Add a submit event listener to the form
